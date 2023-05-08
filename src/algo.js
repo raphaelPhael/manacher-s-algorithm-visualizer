@@ -1,5 +1,4 @@
 const searchLongestPalindrome = () => {
-  const testLongStr = 'gohangasalamiimalasagnahog';
   const str = `^#${"radar".split('').join('#')}#$`;
   const pldrmLengthArr = new Array(str.length).fill(0);
   let center = 0;

@@ -41,6 +41,10 @@ label {
   margin-right: 15px;
 }
 
+.start-button-wrapper {
+  margin-left: 50px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -51,143 +55,31 @@ label {
 
 .animationDesc {
   display: flex;
-}
-
-.palindrome-wrapper {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 60px 40px;
-}
-
-.char-and-length-wrapper {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-.char-pldrm-length {
-  background-color: #47656a;
-  border-radius: 100%;
-  padding: 5px 10px;
-  font-size: 20px;
-  color: white;
-}
-
-.palindrome-wrapper .palindrome-char-wrapper {
-  background-color: #f1f1f1;
-  border: 1px solid #d7d7d7;
-  border-radius: 3px;
-  margin: 20px 5px;
-  box-shadow: 2px 2px 11px -9px rgba(0, 0, 0, 0.4);
-}
-
-.palindrome-char {
-  margin: 0;
-  padding: 10px 25px;
-  font-size: 45px;
-  font-family: monospace;
-  color: #1c1c1c;
-}
-
-.pointer-wrappers .pointer {
-  position: absolute;
-  top: -150px;
-  left: 5px;
-}
-
-.pointer p {
-  font-size: 38px;
-}
-
-.pointer-wrappers .pointer-c {
-  top: -75px;
-}
-
-.pointer-r p {
-  color: #db3333;
-}
-
-.pointer-c p {
-  color: #0e77da;
-}
-
-.pointer-wrappers .pointer-i {
-  top: -75px;
-}
-
-.pointer-i p {
-  color: #12d13b;
-}
-
-.palindrome-wrapper .palindrome-length-wrapper {
-  background-color: #f7f7f7;
-  border: 1px solid #d3d3d3;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-.bgBlue {
-  background-color: #0e77da;
-}
-
-.bgWhite {
-  background-color: #fff;
-}
-
-.bgCenter,
-.bgGreen,
-.bgRight {
-  margin: 20px 5px;
-  border-radius: 3px;
-  box-shadow: 2px 2px 11px -9px rgba(0, 0, 0, 0.4);
-}
-
-.bgGreen {
-  background-color: #07e70746;
-  /* border-radius: 100%; */
-  border: 2px solid #07e707;
-}
-
-.bgCenter {
-  background-color: #4c82f73b;
-  /* border-radius: 100%; */
-  border: 2px solid #0075ff;
-}
-
-.bgRight {
-  background-color: #ffb7003d;
-  /* border-radius: 100%; */
-  border: 2px solid #ffba00;
-}
-
-.notAlphabetic {
-  background-color: #07e7070c;
-  border-radius: 100%;
-  border: 2px solid #07e70754;
-}
-
-.colorGreen {
-  color: green;
-}
-
-.colorRed {
-  color: red;
-}
-
-.notAlphabeticChar {
-  color: #383838;
-}
-
-.alphabeticChar {
-  color: #1b1b1b;
 }
 
 .desc-wrapper {
   display: flex;
   align-items: center;
   margin-right: 30px;
+}
+
+.lt-gt-hifen-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.lt-gt-hifen {
+  font-size: 35px;
+}
+
+.lt-gt {
+  margin-right: 8px;
+}
+
+.hifen {
+  margin: 0 8px;
 }
 
 .square {
@@ -217,9 +109,51 @@ label {
   border: 1px solid #07e707;
 }
 
-.start-button-wrapper {
-  /* margin-top: 50px; */
-  margin-left: 50px;
+.palindrome-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 40px;
+}
+
+.palindrome-wrapper .palindrome-char-wrapper {
+  background-color: #f1f1f1;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  margin: 20px 5px;
+  box-shadow: 2px 2px 11px -9px rgba(0, 0, 0, 0.4);
+}
+
+.palindrome-char {
+  margin: 0;
+  padding: 10px 25px;
+  font-size: 45px;
+  font-family: monospace;
+  color: #1c1c1c;
+}
+
+.bgCenter,
+.bgGreen,
+.bgRight {
+  margin: 20px 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 11px -9px rgba(0, 0, 0, 0.4);
+}
+
+.bgGreen {
+  background-color: #07e70746;
+  border: 2px solid #07e707;
+}
+
+.bgCenter {
+  background-color: #4c82f73b;
+  border: 2px solid #0075ff;
+}
+
+.bgRight {
+  background-color: #ffb7003d;
+  border: 2px solid #ffba00;
 }
 
 .start-button-wrapper button {
@@ -240,47 +174,17 @@ button:disabled {
   background-color: #a8a8a8;
 }
 
-.longest-palindrome-wrapper {
-  /* margin: 20px 0; */
-}
-
 .longest-palindrome-length-wrapper {
   margin: 20px 0;
 }
 
-/* .substring-length {
-  font-size: 25px;
-  font-weight: bold;
-}  */
-
-.substring-length,
 .palindrome-substring {
   font-size: 25px;
   font-weight: bold;
   margin-right: 8px;
-}
-
-.palindrome-substring {
   background-color: #bbf8bb;
   border: 1px solid #18e918;
   padding: 3px 5px;
   border-radius: 5px;
   color: #2f2f30;
-}
-
-.lt-gt-hifen-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.lt-gt-hifen {
-  font-size: 35px;
-}
-
-.lt-gt {
-  margin-right: 8px;
-}
-
-.hifen {
-  margin: 0 8px;
 }
