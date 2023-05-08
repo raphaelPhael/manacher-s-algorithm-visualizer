@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manacher-s-algorithm-visualizer/static/css/main.e7cf59ee.css",
+    "main.js": "/manacher-s-algorithm-visualizer/static/js/main.ec5281fd.js",
+    "index.html": "/manacher-s-algorithm-visualizer/index.html",
+    "main.e7cf59ee.css.map": "/manacher-s-algorithm-visualizer/static/css/main.e7cf59ee.css.map",
+    "main.ec5281fd.js.map": "/manacher-s-algorithm-visualizer/static/js/main.ec5281fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7cf59ee.css",
+    "static/js/main.ec5281fd.js"
+  ]
+}
